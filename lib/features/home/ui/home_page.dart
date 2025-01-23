@@ -86,9 +86,7 @@ class HomePage extends ConsumerWidget {
                     itemCount: 4,
                     scale: 0.9,
                     itemBuilder:(context, index) {
-                      return Container(
-                        child: Image.asset('assets/img/cab_image.png'),
-                      );
+                      return Image.asset('assets/img/cab_image.png');
                     },
                     index: 0,
                     pagination: const SwiperPagination(
